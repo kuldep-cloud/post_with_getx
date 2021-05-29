@@ -33,28 +33,4 @@ class UserListController extends GetxController{
 
   }
 
-/*
-Future<UserDataModel> fetchUserList() async{
-  Timer(Duration(seconds:5),(){
-    try{
-       isLoading(true);
-
-      ApiService.getUserList().then((value) => user.value=value);
-
-      if(user !=null){
-        print("hello");
-        print(user.page.toString()+" i am in fuction");
-       */
-/* userList=user.value.data.length;
-        print(userList.length.toString()+"i am in fuction");*//*
-
-      }
-    }
-    finally{
-      isLoading(false);
-    }
-
-  });
-
-  }*/
 }

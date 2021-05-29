@@ -15,7 +15,6 @@ class UserListView extends StatelessWidget {
         title: Text("My App"),
       ),
       body: Obx((){
-       // print(userListController.user.value.data.length.toString()+"userlist lenght");
         if(userListController.user.value.data==null)
           return Center(child: CircularProgressIndicator(),);
         else
@@ -27,8 +26,6 @@ class UserListView extends StatelessWidget {
                     child: Column(
                       children: [
                         Row(
-                         // mainAxisAlignment: MainAxisAlignment.start,
-                          //crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
                               height: 50,
